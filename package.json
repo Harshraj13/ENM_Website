@@ -1,0 +1,24 @@
+{
+  "name": "student_payback",
+  "version": "1.0.0",
+  "description": "based on QR attendence system",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main_final",
+    "demo": "nodemon main_test",
+    "deploy": "npm run build && gh-pages -d dist -b master",
+  },
+  "author": "HRJxF13",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "mongoose": "^5.12.14",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
