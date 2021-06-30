@@ -81,7 +81,7 @@ app.post('/details_entered',(req,res)=>{
 
     })
 
-    return res.redirect('http://www.google.com');
+    return res.send('<h3>Your response is successfully recorded thank you<h3>');
 
 
 
