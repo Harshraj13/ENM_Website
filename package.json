@@ -5,9 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main_final",
-    "demo": "nodemon main_test",
-    "deploy": "npm run build && gh-pages -d dist -b master",
+    "start": "node main"
   },
   "author": "HRJxF13",
   "license": "ISC",
@@ -16,6 +14,7 @@
     "express": "^4.17.1",
     "express-generator": "^4.16.1",
     "mongoose": "^5.12.14",
+    "node-sass": "^6.0.1",
     "nodemon": "^2.0.7"
   },
   "devDependencies": {
