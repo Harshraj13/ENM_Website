@@ -6,7 +6,7 @@ const {stderr} = require('process')
 const { MongoClient } = require('mongodb')
 const mongoose = require('mongoose')
 
-const port = process.env.port || 3000
+//const port = process.env.port || 3000
 
 
 
@@ -104,6 +104,6 @@ app.get('/',(req,res)=>{
     return res.redirect('frontend.html');
 });
 
-app.listen(port,()=>{
-    console.log(`Server live at port: ${port}`)
-});
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  });
