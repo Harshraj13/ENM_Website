@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main"
+    "start": "node main_final"
   },
   "author": "HRJxF13",
   "license": "ISC",
