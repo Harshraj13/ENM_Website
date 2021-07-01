@@ -82,3 +82,17 @@ footer {
 input{
     color:black ;
 }
+.dropdown-item{
+    color: #31818c;
+}
+
+.item img{
+    box-sizing: content-box;
+    size: 100%;
+}
+select option{
+    color: #31818c;
+}
+select{
+    color: #31818c;
+}
